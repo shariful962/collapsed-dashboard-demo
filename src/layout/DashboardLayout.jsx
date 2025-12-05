@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
-import Sidebar from "./Sidebar";
-import Header from "./Header";
+import Sidebar from "../components/sidebar/Sidebar";
+import Header from "../components/header/Header";
 
 const DashboardLayout = () => {
   const [collapsed, setCollapsed] = useState(false);
