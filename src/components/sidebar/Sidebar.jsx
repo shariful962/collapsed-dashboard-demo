@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { HiHome, HiUser, HiCog } from "react-icons/hi";
 import { menuItem } from "../ui/MenuItem";
 
 const Sidebar = ({ collapsed, mobileOpen, setMobileOpen }) => {
